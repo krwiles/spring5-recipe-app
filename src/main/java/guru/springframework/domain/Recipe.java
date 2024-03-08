@@ -28,6 +28,7 @@ public class Recipe {
     @OneToOne(cascade = CascadeType.ALL)
     private Notes notes;
 
+
     public Long getId() {
         return id;
     }
